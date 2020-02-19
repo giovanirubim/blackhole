@@ -48,6 +48,7 @@ int main(int argc, char const *argv[]) {
 		fseek(f, 0, SEEK_END);
 		size = ftell(f);
 		burn0();
+		fflush(f);
 		burn1();
 		fclose(f);
 		puts("Ok");
