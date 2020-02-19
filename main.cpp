@@ -52,5 +52,7 @@ int main(int argc, char const *argv[]) {
 		fclose(f);
 		puts("Ok");
 	}
+	puts("Press enter to exit");
+	getchar();
 	return 0;
 }
